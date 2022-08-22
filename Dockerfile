@@ -6,7 +6,7 @@ RUN apt-get update -y \
     && update-ca-certificates
 ARG version
 ARG goos=linux
-ARG goarch=arm64
+ARG goarch=amd64
 LABEL version=${version}
 WORKDIR /go/src/github.com/JackyXinHao/http2smtp
 COPY . .
