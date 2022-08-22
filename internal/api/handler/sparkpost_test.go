@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cbdr/http2smtp/internal/converter"
-	"github.com/cbdr/http2smtp/internal/smtp"
+	"github.com/JackyXinHao/http2smtp/internal/converter"
+	"github.com/JackyXinHao/http2smtp/internal/smtp"
 )
 
 func TestSparkPost(t *testing.T) {

@@ -9,9 +9,9 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/cbdr/http2smtp/internal/converter"
-	"github.com/cbdr/http2smtp/internal/env"
-	"github.com/cbdr/http2smtp/internal/smtp"
+	"github.com/JackyXinHao/http2smtp/internal/converter"
+	"github.com/JackyXinHao/http2smtp/internal/env"
+	"github.com/JackyXinHao/http2smtp/internal/smtp"
 	"github.com/rs/zerolog"
 )
 

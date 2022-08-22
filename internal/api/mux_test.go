@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cbdr/http2smtp/internal/converter"
-	"github.com/cbdr/http2smtp/internal/smtp"
+	"github.com/JackyXinHao/http2smtp/internal/converter"
+	"github.com/JackyXinHao/http2smtp/internal/smtp"
 )
 
 func TestAPI_Mux(t *testing.T) {

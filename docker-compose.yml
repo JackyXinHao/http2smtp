@@ -1,6 +1,6 @@
 services:
   http2smtp:
-    image: cbdr/http2smtp
+    image: JackyXinHao/http2smtp
     build:
       context: .
       args:

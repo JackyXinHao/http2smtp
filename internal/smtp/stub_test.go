@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cbdr/http2smtp/internal/converter"
+	"github.com/JackyXinHao/http2smtp/internal/converter"
 )
 
 func TestStub(t *testing.T) {

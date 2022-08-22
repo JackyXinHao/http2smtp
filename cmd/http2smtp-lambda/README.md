@@ -27,7 +27,7 @@ $ make
 If you wish to download a specific version of http2smtp, you can prefix the download URL as env var prior calling `make download`:
 
 ```bash
-$ URL=https://api.github.com/repos/cbdr/http2smtp/releases/tags/v1.2.3 make download
+$ URL=https://api.github.com/repos/JackyXinHao/http2smtp/releases/tags/v1.2.3 make download
 ```
 
 Then deploy using `make deploy`.

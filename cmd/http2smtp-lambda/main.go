@@ -7,10 +7,10 @@ import (
 
 	"github.com/aws/aws-lambda-go/lambda"
 	"github.com/awslabs/aws-lambda-go-api-proxy/httpadapter"
-	"github.com/cbdr/http2smtp/internal/api"
-	"github.com/cbdr/http2smtp/internal/converter"
-	"github.com/cbdr/http2smtp/internal/env"
-	"github.com/cbdr/http2smtp/internal/smtp"
+	"github.com/JackyXinHao/http2smtp/internal/api"
+	"github.com/JackyXinHao/http2smtp/internal/converter"
+	"github.com/JackyXinHao/http2smtp/internal/env"
+	"github.com/JackyXinHao/http2smtp/internal/smtp"
 	"github.com/kelseyhightower/envconfig"
 	"github.com/rs/zerolog"
 )

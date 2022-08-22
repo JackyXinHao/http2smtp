@@ -1,4 +1,4 @@
-module github.com/cbdr/http2smtp
+module github.com/JackyXinHao/http2smtp
 
 go 1.16
 

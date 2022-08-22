@@ -8,11 +8,11 @@ ARG version
 ARG goos=linux
 ARG goarch=arm64
 LABEL version=${version}
-WORKDIR /go/src/github.com/cbdr/http2smtp
+WORKDIR /go/src/github.com/JackyXinHao/http2smtp
 COPY . .
 # Inject the build version: https://blog.alexellis.io/inject-build-time-vars-golang/
 RUN CGO_ENABLED=0 GOOS=${goos} GOARCH=${goarch} go build \
-    -ldflags "-X github.com/cbdr/http2smtp/internal/api.Version=${version}" \
+    -ldflags "-X github.com/JackyXinHao/http2smtp/internal/api.Version=${version}" \
     -o /http2smtp \
     ./cmd/http2smtp
 RUN upx /http2smtp

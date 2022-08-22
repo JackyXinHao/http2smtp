@@ -1,4 +1,4 @@
-URL=https://api.github.com/repos/cbdr/http2smtp/releases/latest
+URL=https://api.github.com/repos/JackyXinHao/http2smtp/releases/latest
 
 .DEFAULT: usage
 

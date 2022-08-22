@@ -3,7 +3,7 @@ package api
 import (
 	"net/http"
 
-	"github.com/cbdr/http2smtp/internal/api/handler"
+	"github.com/JackyXinHao/http2smtp/internal/api/handler"
 	"github.com/gorilla/mux"
 )
 
