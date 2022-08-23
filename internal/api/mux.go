@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	"github.com/jackyxinhao/http2smtp/internal/api/handler"
 	"github.com/gorilla/mux"
+	"github.com/jackyxinhao/http2smtp/internal/api/handler"
 )
 
 // Mux returns the app routes

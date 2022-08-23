@@ -5,12 +5,12 @@ import (
 	"os"
 	"time"
 
+	"github.com/aws/aws-lambda-go/lambda"
+	"github.com/awslabs/aws-lambda-go-api-proxy/httpadapter"
 	"github.com/jackyxinhao/http2smtp/internal/api"
 	"github.com/jackyxinhao/http2smtp/internal/converter"
 	"github.com/jackyxinhao/http2smtp/internal/env"
 	"github.com/jackyxinhao/http2smtp/internal/smtp"
-	"github.com/aws/aws-lambda-go/lambda"
-	"github.com/awslabs/aws-lambda-go-api-proxy/httpadapter"
 	"github.com/kelseyhightower/envconfig"
 	"github.com/rs/zerolog"
 )
