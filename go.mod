@@ -1,4 +1,4 @@
-module github.com/JackyXinHao/http2smtp
+module github.com/jackyxinhao/http2smtp
 
 go 1.16
 

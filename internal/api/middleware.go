@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/JackyXinHao/http2smtp/internal/ctx"
+	"github.com/jackyxinhao/http2smtp/internal/ctx"
 	"github.com/justinas/alice"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/hlog"

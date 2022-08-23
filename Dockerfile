@@ -8,7 +8,7 @@ ARG version
 ARG goos=linux
 ARG goarch=amd64
 LABEL version=${version}
-WORKDIR /go/src/github.com/JackyXinHao/http2smtp
+WORKDIR /go/src/github.com/jackyxinhao/http2smtp
 COPY . .
 # Inject the build version: https://blog.alexellis.io/inject-build-time-vars-golang/
 RUN CGO_ENABLED=0 GOOS=${goos} GOARCH=${goarch} go build \
