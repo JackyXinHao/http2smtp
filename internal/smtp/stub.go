@@ -3,7 +3,7 @@ package smtp
 import (
 	"context"
 
-	"github.com/JackyXinHao/http2smtp/internal/converter"
+	"github.com/jackyxinhao/http2smtp/internal/converter"
 )
 
 // Stub is a test struct that implements Client

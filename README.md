@@ -1,5 +1,5 @@
 # 📩 HTTP to SMTP
-[![ci](https://github.com/JackyXinHao/http2smtp/workflows/build/badge.svg)](https://github.com/JackyXinHao/http2smtp/actions) [![codecov](https://codecov.io/gh/JackyXinHao/http2smtp/branch/master/graph/badge.svg?token=XH18EYLDLZ)](https://codecov.io/gh/JackyXinHao/http2smtp) [![version](https://img.shields.io/github/v/tag/JackyXinHao/http2smtp?label=version&logo=github&sort=semver)](https://github.com/JackyXinHao/http2smtp/releases) [![license](https://img.shields.io/github/license/JackyXinHao/http2smtp)](https://github.com/JackyXinHao/http2smtp/blob/master/LICENSE)
+[![ci](https://github.com/jackyxinhao/http2smtp/workflows/build/badge.svg)](https://github.com/jackyxinhao/http2smtp/actions) [![codecov](https://codecov.io/gh/jackyxinhao/http2smtp/branch/master/graph/badge.svg?token=ZGGDRBTW9U)](https://codecov.io/gh/jackyxinhao/http2smtp) [![version](https://img.shields.io/github/v/tag/jackyxinhao/http2smtp?label=version&logo=github&sort=semver)](https://github.com/jackyxinhao/http2smtp/releases) [![license](https://img.shields.io/github/license/jackyxinhao/http2smtp)](https://github.com/jackyxinhao/http2smtp/blob/master/LICENSE)
 
 An API that forwards HTTP-backed vendor mailer calls to SMTP.
 
@@ -17,7 +17,7 @@ See [examples](examples).
 
 :zap: ProTip: for tracing purposes, this app kinda supports [W3C Trace Context recommendation](https://www.w3.org/TR/trace-context/). Configure the env var `TRACEPARENT_HEADER` and inject any trace into this header value. All log entries will be contextualized with the given value.
 
-### Docker image [![docker pull](https://img.shields.io/docker/pulls/JackyXinHao/http2smtp)](https://hub.docker.com/repository/docker/JackyXinHao/http2smtp) [![size](https://img.shields.io/docker/image-size/JackyXinHao/http2smtp?sort=semver)](https://hub.docker.com/repository/docker/JackyXinHao/http2smtp)
+### Docker image [![docker pull](https://img.shields.io/docker/pulls/jackyxin/http2smtp)](https://hub.docker.com/repository/docker/jackyxin/http2smtp) [![size](https://img.shields.io/docker/image-size/jackyxin/http2smtp?sort=semver)](https://hub.docker.com/repository/docker/jackyxin/http2smtp)
 
 1. Checkout this repo or only copy the `.env.dist` and `docker-compose.yml` files
 1. Rename `.env.dist` into `.env`
@@ -44,4 +44,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contributors
 
-[![contributors](https://contrib.rocks/image?repo=JackyXinHao/http2smtp)](https://github.com/JackyXinHao/http2smtp/graphs/contributors)
+[![contributors](https://contrib.rocks/image?repo=jackyxinhao/http2smtp)](https://github.com/jackyxinhao/http2smtp/graphs/contributors)

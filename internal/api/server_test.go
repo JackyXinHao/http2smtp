@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/JackyXinHao/http2smtp/internal/converter"
-	"github.com/JackyXinHao/http2smtp/internal/env"
-	"github.com/JackyXinHao/http2smtp/internal/smtp"
+	"github.com/jackyxinhao/http2smtp/internal/converter"
+	"github.com/jackyxinhao/http2smtp/internal/env"
+	"github.com/jackyxinhao/http2smtp/internal/smtp"
 	"github.com/rs/zerolog"
 )
 

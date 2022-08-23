@@ -7,8 +7,8 @@ import (
 	"io"
 	"net/smtp"
 
-	"github.com/JackyXinHao/http2smtp/internal/converter"
-	ictx "github.com/JackyXinHao/http2smtp/internal/ctx"
+	"github.com/jackyxinhao/http2smtp/internal/converter"
+	ictx "github.com/jackyxinhao/http2smtp/internal/ctx"
 	"github.com/rs/zerolog"
 )
 
